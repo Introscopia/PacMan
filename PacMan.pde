@@ -36,6 +36,7 @@ void setup() {
   noSmooth();
   build_map( "map og" );
   load_sprites( "spritesheet_.png" );
+  load_sprites( "spritesheet.png" );
   AIs = new AI[ghosts.length];
   for( int i = 0; i < AIs.length; ++i ) AIs[i] = new Seguidor();
   arrow_keys = new boolean[4];
